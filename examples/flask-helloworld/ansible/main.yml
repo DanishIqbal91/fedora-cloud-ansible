@@ -4,8 +4,8 @@
   become: yes
 
   vars:
-    src_dir: [Source Directory]        # /path/to/src_dir of the current host.
-    dest_dir: [Destination Directory]  # /path/to/dest_dir of the remote atomic host.
+    src_dir: /var/lib/jenkins/workspace/git-annsible/examples/flask-helloworld       # /path/to/src_dir of the current host.
+    dest_dir: /var/lib/jenkins/workspace  # /path/to/dest_dir of the remote atomic host.
 
   tasks:
     - name: Create Destination Directory
