@@ -33,6 +33,5 @@
     - name: Run Docker Container
       command: docker run -d --name helloworld -p 5000:5000 fedora/flask-app:test
 
-    - name: Start Cockpit Service
-      command: /usr/bin/atomic run fedora/cockpitws
+    
 ...
